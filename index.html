@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+
+        <meta charset="utf-8" />
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+
+        <title>OCTOPUS GANG</title>
+
+        <style>
+            *{
+                margin: 10px;
+                padding: 0px;   
+            }
+
+
+            body{
+                background-color: lightskyblue;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            #container{
+                width: 70%;
+                width: 1100px;
+                margin: 0px auto;
+                border: 1px solid gainsboro;
+            }
+
+            .article{
+                background: none;
+            }
+
+            header{
+                background:plum;
+                height: 100px;
+                width: 100%;
+                text-align: center;
+                line-height: 100px;
+                color: blanchedalmond;
+            }
+
+            nav ul li{
+                float:none;
+                list-style: none;
+                line-height: 30px;
+            }
+
+            .clearfix{
+                clear:both;
+            }
+
+            nav{
+                background-color: none;
+            }
+
+            #content{
+                float: left;
+                width: 80%;
+                background: mediumslateblue;
+            }
+
+            aside{
+                float: none;
+                width: 20%;
+                background: none;
+            }
+
+            footer{
+                background:lightslategray;
+                color:cornsilk;
+                text-align: center;
+                height: 50px;
+                line-height: 50px;
+            }
+
+        
+        </style>
+
+        <body>
+
+        <header>
+
+            <h1>THE OCTOPUS GANG</h1>
+            
+        </header>
+
+            <div id="container">
+
+                 <nav>
+
+                     <ul>
+
+                         <li>
+
+                             <a href="inicio.html">
+                                    inicio
+                             </a>
+
+                             <hr>
+                                     
+                         <li>
+                             <a href="miembros.html">
+                                    Miembros
+                             </a>
+                            </li>
+                             <hr>         
+                        <li>
+                             <a href="ROLES.html">
+                                    roles
+                            </a>
+                        
+                            <hr>
+
+                         </li>
+
+                     </ul>
+
+                 </nav>
+
+                 <div class="clearfix"></div>
+
+                 <section id="content">
+
+                    <article class="article">
+
+                        <h2> DESCRIPCION </h2>
+
+                        <p></p>
+                        
+                        <hr>
+
+                        <h3> REGLAS </h3>
+
+                        <p>x contenido</p>
+
+                    </article>
+
+
+                 </section>
+
+                 <aside>
+
+                     <h2> RECLUTAMIENTO </h2>
+
+                     <form action="action_page.php" target="_blank" method="POST">
+                         <input type="radio" id="Psiquico" name="categoria" value="Psiquico">
+                         <label for="Psiquico">Psiquico</label><br>
+                         <input type="radio" id="Demonio" name="categoria" value="Demonio">
+                         <label for="Demonio">Demonio</label><br>
+                         <input type="radio" id="Angal" name="categoria" value="Angel">
+                         <label for="Angel">Angel</label><br>
+                         <input type="radio" id="Mago" name="categoria" value="Mago">
+                         <label for="Mago">Mago</label><br>  
+                        
+                     
+                     </form>
+
+                     <form>
+                         <label for="usuario">usuario:</label><br>
+                         <input type="text" id="usuario" name="user" placeholder="nombre o apodo">
+                         <input type="text" id="usuario" name="user" placeholder="correo o usuario"
+                         <label for="pass">contraseña</label><br>
+                         <input type="password" id="pass" name="user">
+                         <input type="reset" value="borrar">
+                     </form>
+                     <form>
+                         
+                         <input type="checkbox" id="psiquicos" name="categoria1" value="psiquicos"
+                         <label for="psiquicos"></label>
+                         
+                         <input type="button" onclick="alert('solicitud enviada')" value="ENVIAR">
+                     </form>
+                     <form>
+                         <label for="fecha de nac"> FECHA DE NACIMIENTO</label>
+                         <input type="date" id="datomax" max="2011-05-20"> <br>
+                     </form>
+
+                 </aside>
+
+               
+                 <footer>
+
+                     El Sebas WEB
+
+                 </footer>
+                 
+               
+  
+            </div>
+
+        </body>
+
+    </head>
+
+</html>
